@@ -1,15 +1,15 @@
 weba:
-  build: .
+  image: rjvanemous/nodejs-test
   expose:
     - 80
 
 webb:
-  build: .
+  image: rjvanemous/nodejs-test
   expose:
     - 80
 
 webc:
-  build: .
+  image: rjvanemous/nodejs-test
   expose:
     - 80
 
